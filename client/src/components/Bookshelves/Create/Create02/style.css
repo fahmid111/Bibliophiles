@@ -1,0 +1,194 @@
+.rightPanel {
+  top: 70px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background: rgb(249, 247, 244);
+  color: rgb(39, 37, 37);
+  padding: em(10px);
+}
+
+.cross {
+  position: relative;
+  top: -25px;
+  left: 530px;
+}
+
+.cross:hover {
+  position: relative;
+  cursor: pointer;
+  top: -25px;
+  left: 530px;
+  color: #f12b2b;
+  font-size: 22px;
+}
+
+.link-right {
+  color: rgb(39, 37, 37);
+}
+
+.content {
+  position: relative;
+}
+
+/* .card-right {
+  padding: 1rem 1rem 1rem 1rem;
+} */
+
+.menu-option {
+  position: relative;
+}
+.menu-option:hover {
+  color: rgb(44, 59, 59);
+  font-size: large;
+  cursor: pointer;
+}
+
+.menu-option:after {
+  content: "";
+  background: rgb(218, 216, 213);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 14%;
+}
+
+.banner {
+  top: 85px;
+}
+
+.menu {
+  position: relative;
+}
+.menu:after {
+  top: 30px;
+  content: "";
+  background: rgb(187, 182, 175);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 14%;
+}
+
+.create-container {
+  padding-top: 0.5rem;
+  top: 85px;
+  left: 300px;
+  align-self: center;
+  margin-bottom: 5%;
+}
+
+.create-container form {
+  padding: 10%;
+  padding-bottom: 5%;
+}
+
+.btnSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+
+.create-form {
+  padding: 5%;
+  padding-top: 3%;
+  padding-bottom: 0%;
+  background: #67855a;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.create-form h4 {
+  text-align: center;
+  color: #fff;
+}
+
+.create-form .btnSubmit {
+  font-weight: 600;
+  color: #0062cc;
+  background-color: #fff;
+}
+
+.create-form .btnSubmit:hover {
+  width: 55%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+  color: rgb(65, 41, 41);
+  background-color: #75efff;
+}
+
+/* body {
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Open Sana", sans-serif;
+  background: #f2f2f2;
+} */
+
+.search-container {
+  z-index: 2;
+  position: relative;
+  /* max-width: 1024px; */
+  margin: auto;
+  /* height: 500px; */
+  /* padding: 50px; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown {
+  width: 130px;
+}
+.dropdown-btn {
+  font-size: 16px;
+  background: white;
+  border: 1px solid rgb(228, 220, 220);
+  border-radius: 4px;
+  height: 40px;
+  width: 130px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.dropdown-btn:hover,
+.dropdown-btn:focus {
+  background: #f2f2f2;
+}
+
+.dropdown-items {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  width: 200px;
+  position: absolute;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border: 1px solid black;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+.dropdown-item {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  cursor: pointer;
+}
+.dropdown-item:not(first-child) {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.dropdown-item:not(last-child) {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.isVisible {
+  visibility: visible;
+}
+.isHidden {
+  visibility: hidden;
+}

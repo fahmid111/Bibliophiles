@@ -1,0 +1,42 @@
+.bg {
+  background-image: url("../../assets/images/banner.jpg");
+}
+
+.main-container {
+  top: 72px;
+  position: relative;
+}
+
+.table {
+  position: relative !important;
+  align-self: center !important;
+  max-width: 1000px !important;
+}
+
+.col-1 {
+  position: relative !important;
+  align-content: center !important;
+  max-width: 200px !important;
+}
+
+.col-2 {
+  position: relative !important;
+  align-content: initial;
+  max-width: 800px !important;
+}
+
+.desc {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+}
+
+.smol {
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+}
+
+.headText {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Crete Round", serif;
+}

@@ -1,0 +1,9 @@
+.card-text-bottom {
+  font-size: 12px;
+}
+
+.card-book:hover {
+  -webkit-mask-image: linear-gradient(rgba(255, 0, 0, 0.329), transparent);
+  mask-image: linear-gradient(rgb(255, 0, 0, 0.329), transparent);
+  cursor: url("../../../../assets/images/cross.png"), auto;
+}

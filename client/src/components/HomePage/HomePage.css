@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  top: 72px;
+  position: relative;
+}
+
+.trending {
+  background-color: whitesmoke;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 30px !important;
+  padding-bottom: 40px !important;
+}
+.aboutheading {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.divBottom {
+  border-bottom: double;
+}
+
+.textGenre {
+  font-family: "Righteous", cursive;
+  font-size: 2rem;
+}
+
+.fanfav {
+  background-color: snow;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 30px !important;
+  padding-bottom: 40px !important;
+}
+
+.awardwinning {
+  background-color: floralwhite;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 30px !important;
+  padding-bottom: 40px !important;
+}
+
+.black {
+  color: #141012;
+}
+
+.coloured01 {
+  color: darkmagenta;
+  padding-bottom: 30px !important;
+}
+
+.head-text {
+  position: relative;
+}
+.text-on-image-u {
+  color: rgb(32, 36, 34);
+  position: absolute;
+  text-align: center;
+  /* right: 50%; */
+  left: 13%;
+  top: 25%;
+}
+
+.photo-u {
+  height: 650px;
+  width: 100%;
+}
+
+.text-pad {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}

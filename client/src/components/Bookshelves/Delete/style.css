@@ -1,0 +1,105 @@
+.rightPanel-d {
+  top: 70px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background: rgb(249, 247, 244);
+  color: rgb(39, 37, 37);
+  padding: em(10px);
+}
+
+.create-container-d {
+  padding-top: 0.5rem;
+  top: 85px;
+  align-self: center;
+  margin-bottom: 5%;
+}
+
+.create-container-d form {
+  padding: 1%;
+}
+
+.btnSubmit-d {
+  width: 15%;
+  border-radius: 1rem;
+  padding: 0.8%;
+  border: none;
+  cursor: pointer;
+}
+.btnSubmit-d:hover {
+  width: 17%;
+  border-radius: 1rem;
+  padding: 0.8%;
+  border: none;
+  cursor: pointer;
+  color: #311c1c;
+  background-color: #9fff76;
+}
+
+.create-form-d {
+  padding: 5%;
+  padding-top: 3%;
+  padding-bottom: 0%;
+  background: #67855a;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.create-form-d h4 {
+  text-align: center;
+  color: #fff;
+}
+
+.create-form-d .btnSubmit {
+  font-weight: 600;
+  color: #0062cc;
+  background-color: #fff;
+}
+
+.link-right-d {
+  color: rgb(39, 37, 37);
+}
+
+.content-d {
+  position: relative;
+}
+
+/* .card-right {
+  padding: 1rem 1rem 1rem 1rem;
+} */
+
+.menu-option-d {
+  position: relative;
+}
+.menu-option-d:hover {
+  color: rgb(44, 59, 59);
+  font-size: large;
+  cursor: pointer;
+}
+
+.menu-option-d:after {
+  content: "";
+  background: rgb(218, 216, 213);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 14%;
+}
+
+.banner-d {
+  top: 85px;
+}
+
+.menu-d {
+  position: relative;
+}
+.menu-d:after {
+  top: 30px;
+  content: "";
+  background: rgb(187, 182, 175);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 14%;
+}
