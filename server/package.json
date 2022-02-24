@@ -1,0 +1,27 @@
+{
+  "name": "bibliophiles",
+  "version": "1.0.0",
+  "description": "A Book Cataloging and Review Website by Abu Humayed Azim Fahmid",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Abu Humayed Azim Fahmid",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "oracledb": "^5.3.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.15.0"
+  }
+}
