@@ -31,6 +31,7 @@ A Reader can- <br/>
 Here in Bibliophiles, a Reader will find properly cataloged books, so that they can enrich their knowledge of books and everything related to books (i.e. authors, publishers etc.)
 
 
+<br/>
 
 ## Languages and Tools
 
@@ -42,6 +43,7 @@ Here in Bibliophiles, a Reader will find properly cataloged books, so that they 
 </ul>
 
 
+<br/>
 
 ## Prerequisites
 
@@ -58,11 +60,13 @@ Here in Bibliophiles, a Reader will find properly cataloged books, so that they 
 
 
 
+<br/>
 ## Installing The Project
 
 Follow the steps below to properly install this project.
 
 
+<br/>
 ### Downloading the Project
 
 <ol>
@@ -216,9 +220,9 @@ Then go to the client folder in cmd and do the same
 
     ▶ **Contact:**
 
-    Room No: 311
-    Department of Computer Science and Engineering
-    Bangladesh University of Engineering and Technology
+    Room No: 311<br/>
+    Department of Computer Science and Engineering<br/>
+    Bangladesh University of Engineering and Technology<br/>
     Dhaka 1000, Bangladesh
 
     ▶   **Homepage:**
