@@ -95,7 +95,7 @@ Follow the steps below to properly install this project.
 	Enter password: password
 	
 </li>
-<li>Run the `SchemaCreation.sql` file from `database-setup` folder<br/><br/>
+<li>Run the SchemaCreation.sql file from database-setup folder<br/><br/>
 
    ```sh
    SQL> @[path]
@@ -109,7 +109,7 @@ For example if your file is in `D:\Bibliophiles-main\database-setup\SchemaCreati
    ```
 	
 </li>
-<li>Run the `TrigsFuncProcs.sql` file from `database-setup` folder<br/><br/>
+<li>Run the TrigsFuncProcs.sql file from database-setup folder<br/><br/>
 
    ```sh
    SQL> @[path]
@@ -124,7 +124,9 @@ For example if your file is in `D:\Bibliophiles-main\database-setup\TrigsFuncPro
 	
 </li>
 <li>This way user c##bibliophiles will have the proper schema of our project</li>
-<li>To get the existing Data of our Project, you will also have to run `Data.sql` file. But, as there are characters in `Data.sql` that SQL Plus cannot read, you will have to go to your database GUI and run Data.sql for c##bibliophiles from there.</li>
+<li>To get the existing Data of our Project,
+
+you will also have to run `Data.sql` file. But, as there are characters in `Data.sql` that SQL Plus cannot read, you will have to go to your database GUI and run Data.sql for c##bibliophiles from there.</li>
 <li>If done properly, your user c##bibliophiles should have proper scema, triggers, procedures, functions and data of our project.</li>
 </ol>
 <br/>
