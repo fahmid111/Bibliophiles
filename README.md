@@ -3,7 +3,7 @@
 <br />
 <div align="center">
 
-![](public/images/logoBib.jpg)
+![](client/public/images/logoBib.jpg)
 
 <h2 align="center">Bibliophiles</h3>
   <h3 align="center">A Bibliophile's Paradise</h3>
