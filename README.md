@@ -30,6 +30,8 @@ A Reader can- <br/>
  <br/>
 Here in Bibliophiles, a Reader will find properly cataloged books, so that they can enrich their knowledge of books and everything related to books (i.e. authors, publishers etc.)
 
+
+
 ## Languages and Tools
 
 <ul>
@@ -59,6 +61,7 @@ Here in Bibliophiles, a Reader will find properly cataloged books, so that they 
 ## Installing The Project
 
 Follow the steps below to properly install this project.
+
 
 ### Downloading the Project
 
@@ -159,6 +162,8 @@ DatabasePassword = 'password'
 DatabaseConnectionString = 'localhost:1521/orcl'
 ```
 
+
+
 ### Installing NPM Packages
 
 Open cmd and go to the client folder in cmd and run the command
@@ -173,6 +178,8 @@ Then go to the server folder in cmd and do the same
  npm install
 ```
 
+
+
 ### Running the Project
 
 Open cmd and go to the server folder in cmd and run the command
@@ -186,6 +193,7 @@ Then go to the client folder in cmd and do the same
 ```sh
  npm start
 ```
+
 
 
 ## Creators of This Project
