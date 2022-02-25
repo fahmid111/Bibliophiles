@@ -9,6 +9,25 @@
   <h3 align="center">A Bibliophile's Paradise</h3>
 </div>
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-bibliophiles">About Bibliophiles</a></li>
+    <li><a href="#languages-and-tools">Languages and Tools</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#installing-the-project">Installing The Project</a>
+    <ul>
+	<li><a href="#downloading-the-project">Downloading The Project</a></li>
+	<li><a href="#setting-up-database">Setting Up The Database</a></li>
+	<li><a href="#setting-up-the-environment-variables">Setting Up The Environment Variables</a></li>
+	<li><a href="#installing-npm-packages">Installing NPM Packages</a></li>
+	<li><a href="#running-the-Project">Running The Project</a></li>
+    </ul>
+    </li>
+    <li><a href="#creators-of-this-project">Creators of This Project</a></li>
+    <li><a href="#supervisor">Supervisor</a></li>
+  </ol>
+</details>
 
 ## About Bibliophiles
 
@@ -71,7 +90,7 @@ Follow the steps below to properly install this project.
 <br/>
 
 
-### Downloading the Project
+### Downloading The Project
 
 <ol>
   <li>First, download the project as a ZIP file from github into your PC</li>
@@ -81,7 +100,7 @@ Follow the steps below to properly install this project.
 
 
 
-### Setting up the database
+### Setting Up The Database
 
 <ol>
   <li>Go to SQL Plus</li>
@@ -142,7 +161,7 @@ For example if your file is in `D:\Bibliophiles-main\database-setup\TrigsFuncPro
 
 
 
-### Setting up the environment variables
+### Setting Up The Environment Variables
 
 Create a new file `.env` in the `server` folder<br/>
 Add the following code.
@@ -190,7 +209,7 @@ Then go to the server folder in cmd and do the same
 
 <br/>
 
-### Running the Project
+### Running The Project
 
 Open cmd and go to the server folder in cmd and run the command
 
