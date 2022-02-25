@@ -12,7 +12,7 @@
 
 ## About Bibliophiles
 
-Bibliophiles is a book cataloging and review website. There are two types of users - Admin and Reader. <br />
+Bibliophiles is a book cataloging and review website. There are two types of users - Admin and Reader. <br /><br/>
 Admin can add, update and delete <br />
   <ul>
     <li>Books</li>
