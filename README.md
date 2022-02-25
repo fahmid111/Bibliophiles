@@ -46,7 +46,7 @@ Here in Bibliophiles, a Reader will find properly cataloged books, so that they 
 **`Oracle`**: As this is primarily an Oracle Database Project, Oracle has to be installed in your system. To install Oracle 19c, follow these steps.
 <ol>
   <li>Go <a href="http://www.oracle.com/index.html">here</a> and register for an account of your own.</li>
-  <li>Then go <a href="https://www.oracle.com/database/technologies/oracledatabase-software-downloads.html">here</a> and install the file according to your system.</li>
+  <li>Then go <a href="https://www.oracle.com/database/technologies/oracle-database-software-downloads.html">here</a> and install the file according to your system.</li>
   <li>After downloading the ZIP file, UNZIP it and Run setup.exe</li>
   <li>Install properly.</li>
 </ol>
