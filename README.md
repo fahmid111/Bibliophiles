@@ -76,44 +76,56 @@ Follow the steps below to properly install this project.
   <li>Go to SQL Plus</li>
   <li>Enter proper user-name and password to login</li>
   <li>Then run command<br/><br/>
+	  
    ```sh
    SQL> connect sys as sysdba
    Enter password: password
    ```
+	  
 </li>
 <li>Create a new user. For example, we are creating c##bibliophiles<br/><br/>
-   ```sh
-   create user c##bibliophiles identified by password;
-   grant all privileges to c##bibliophiles;
-   ```
+	
+	```sh
+	create user c##bibliophiles identified by password;
+	grant all privileges to c##bibliophiles;
+	```
+	
 </li>
 <li>Now connect to c##bibliophiles<br/><br/>
-   ```sh
-   SQL> connect c##bibliophiles
-   Enter password: password
-   ```
+
+	```sh
+	SQL> connect c##bibliophiles
+	Enter password: password
+	```
+	
 </li>
 <li>Run the `SchemaCreation.sql` file from `database-setup` folder<br/><br/>
 
    ```sh
    SQL> @[path]
    ```
+	
 In the place of `[path]` you will have to provide the path of `SchemaCreation.sql` in your PC.<br/>
 For example if your file is in `D:\Bibliophiles-main\database-setup\SchemaCreation.sql` then run<br/><br/>
+	
    ```sh
    SQL> @D:\Bibliophiles-main\database-setup\SchemaCreation.sql
    ```
+	
 </li>
 <li>Run the `TrigsFuncProcs.sql` file from `database-setup` folder<br/><br/>
 
    ```sh
    SQL> @[path]
    ```
+	
 In the place of `[path]` you will have to provide the path of `TrigsFuncProcs.sql` in your PC.<br/>
 For example if your file is in `D:\Bibliophiles-main\database-setup\TrigsFuncProcs.sql` then run<br/><br/>
+	
    ```sh
    SQL> @D:\Bibliophiles-main\database-setup\TrigsFuncProcs.sql
    ```
+	
 </li>
 <li>This way user c##bibliophiles will have the proper schema of our project</li>
 <li>To get the existing Data of our Project, you will also have to run `Data.sql` file. But, as there are characters in `Data.sql` that SQL Plus cannot read, you will have to go to your database GUI and run Data.sql for c##bibliophiles from there.</li>
