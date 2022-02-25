@@ -21,11 +21,11 @@ An Admin can add, update and delete- <br />
     <li>Genres</li>
   </ul>
 <br/>
-A Reader can- 
+A Reader can- <br/><br/>
 1. Explore and critique books available in our database. <br/> 
 2. Search for any book as they want using our advance search. <br/>
 3. Create virtual bookshelves and add and delete books in their bookshelves and personalize their bookshelves accordingly.<br/>
-
+<br/><br/>
 Here in Bibliophiles, a Reader will find properly cataloged books, so that they can enrich their knowledge of books and everything related to books (i.e. authors, publishers etc.)
 
 ## Languages and Tools
