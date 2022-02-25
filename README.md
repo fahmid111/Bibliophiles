@@ -85,18 +85,14 @@ Follow the steps below to properly install this project.
 </li>
 <li>Create a new user. For example, we are creating c##bibliophiles<br/><br/>
 	
-	```sh
 	create user c##bibliophiles identified by password;
 	grant all privileges to c##bibliophiles;
-	```
 	
 </li>
 <li>Now connect to c##bibliophiles<br/><br/>
 
-	```sh
 	SQL> connect c##bibliophiles
 	Enter password: password
-	```
 	
 </li>
 <li>Run the `SchemaCreation.sql` file from `database-setup` folder<br/><br/>
