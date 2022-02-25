@@ -13,7 +13,7 @@
 ## About Bibliophiles
 
 Bibliophiles is a book cataloging and review website. There are two types of users - Admin and Reader. <br /><br/>
-Admin can add, update and delete- <br />
+An Admin can add, update and delete- <br />
   <ul>
     <li>Books</li>
     <li>Authors</li>
@@ -21,9 +21,11 @@ Admin can add, update and delete- <br />
     <li>Genres</li>
   </ul>
 <br/>
-Reader can explore and critique books available in our database. <br/> 
-They can search for any book as they want using our advance search. <br/>
-They can create virtual bookshelves and add and delete books in their bookshelves and personalize their bookshelves accordingly.<br/>
+A Reader can- 
+1. Explore and critique books available in our database. <br/> 
+2. Search for any book as they want using our advance search. <br/>
+3. Create virtual bookshelves and add and delete books in their bookshelves and personalize their bookshelves accordingly.<br/>
+
 Here in Bibliophiles, a Reader will find properly cataloged books, so that they can enrich their knowledge of books and everything related to books (i.e. authors, publishers etc.)
 
 ## Languages and Tools
