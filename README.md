@@ -52,8 +52,7 @@ Here in Bibliophiles, a Reader will find properly cataloged books, so that they 
 </ol>
 <br/>
 
-**`Node.js`**: For this project, you will also need Node.js.<br/>
-Install Node.js from [here](https://nodejs.org/en/download/)
+**`Node.js`**: For this project, you will also need Node.js. Install Node.js from [here](https://nodejs.org/en/download/)
 
 
 
@@ -76,42 +75,42 @@ Follow the steps below to properly install this project.
 <ol>
   <li>Go to SQL Plus</li>
   <li>Enter proper user-name and password to login</li>
-  <li>Then run command
+  <li>Then run command<br/><br/>
    ```sh
    SQL> connect sys as sysdba
    Enter password: password
    ```
 </li>
-<li>Create a new user. For example, we are creating c##bibliophiles
+<li>Create a new user. For example, we are creating c##bibliophiles<br/><br/>
    ```sh
    create user c##bibliophiles identified by password;
    grant all privileges to c##bibliophiles;
    ```
 </li>
-<li>Now connect to c##bibliophiles
+<li>Now connect to c##bibliophiles<br/><br/>
    ```sh
    SQL> connect c##bibliophiles
    Enter password: password
    ```
 </li>
-<li>Run the `SchemaCreation.sql` file from `database-setup` folder<br/>
+<li>Run the `SchemaCreation.sql` file from `database-setup` folder<br/><br/>
 
    ```sh
    SQL> @[path]
    ```
 In the place of `[path]` you will have to provide the path of `SchemaCreation.sql` in your PC.<br/>
-For example if your file is in `D:\Bibliophiles-main\database-setup\SchemaCreation.sql` then run
+For example if your file is in `D:\Bibliophiles-main\database-setup\SchemaCreation.sql` then run<br/><br/>
    ```sh
    SQL> @D:\Bibliophiles-main\database-setup\SchemaCreation.sql
    ```
 </li>
-<li>Run the `TrigsFuncProcs.sql` file from `database-setup` folder<br/>
+<li>Run the `TrigsFuncProcs.sql` file from `database-setup` folder<br/><br/>
 
    ```sh
    SQL> @[path]
    ```
 In the place of `[path]` you will have to provide the path of `TrigsFuncProcs.sql` in your PC.<br/>
-For example if your file is in `D:\Bibliophiles-main\database-setup\TrigsFuncProcs.sql` then run
+For example if your file is in `D:\Bibliophiles-main\database-setup\TrigsFuncProcs.sql` then run<br/><br/>
    ```sh
    SQL> @D:\Bibliophiles-main\database-setup\TrigsFuncProcs.sql
    ```
