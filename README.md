@@ -84,6 +84,7 @@ Follow the steps below to properly install this project.
 	  
 </li>
 <li>Create a new user. For example, we are creating c##bibliophiles<br/><br/>
+
 	```sh
 	SQL> create user c##bibliophiles identified by password;
 	SQL> grant all privileges to c##bibliophiles;
@@ -91,6 +92,7 @@ Follow the steps below to properly install this project.
 	
 </li>
 <li>Now connect to c##bibliophiles<br/><br/>
+	
 	```sh
 	SQL> connect c##bibliophiles
 	Enter password: password
