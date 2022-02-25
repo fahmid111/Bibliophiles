@@ -18,7 +18,7 @@
     <li><a href="#installing-the-project">Installing The Project</a>
     <ul>
 	<li><a href="#downloading-the-project">Downloading The Project</a></li>
-	<li><a href="#setting-up-database">Setting Up The Database</a></li>
+	<li><a href="#setting-up-the-database">Setting Up The Database</a></li>
 	<li><a href="#setting-up-the-environment-variables">Setting Up The Environment Variables</a></li>
 	<li><a href="#installing-npm-packages">Installing NPM Packages</a></li>
 	<li><a href="#running-the-Project">Running The Project</a></li>
