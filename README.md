@@ -61,13 +61,16 @@ Here in Bibliophiles, a Reader will find properly cataloged books, so that they 
 
 
 
-<br/>
+<br/> 
+
 ## Installing The Project
 
 Follow the steps below to properly install this project.
 
 
 <br/>
+
+
 ### Downloading the Project
 
 <ol>
