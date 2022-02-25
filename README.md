@@ -163,6 +163,7 @@ DatabaseConnectionString = 'localhost:1521/orcl'
 ```
 
 
+<br/>
 
 ### Installing NPM Packages
 
@@ -179,6 +180,7 @@ Then go to the server folder in cmd and do the same
 ```
 
 
+<br/>
 
 ### Running the Project
 
@@ -195,6 +197,7 @@ Then go to the client folder in cmd and do the same
 ```
 
 
+<br/>
 
 ## Creators of This Project
 
@@ -204,6 +207,7 @@ Then go to the client folder in cmd and do the same
 
   
 
+<br/>
 ## Supervisor
 
 - [Dr. Muhammad Abdullah Adnan](https://cse.buet.ac.bd/faculty/facdetail.php?id=adnan)
